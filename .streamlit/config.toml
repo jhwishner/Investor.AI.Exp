@@ -1,0 +1,57 @@
+[theme]
+base = "light"
+
+# Modern light identity: neutral off-white (not stark white, not cream/
+# beige -- beige reads dated), near-black text, a single confident emerald
+# accent. No serif, no heavy borders -- soft shadow elevation on cards
+# instead, which is what reads as "modern flat SaaS" rather than retro.
+primaryColor = "#047857"
+backgroundColor = "#FAFAFA"
+secondaryBackgroundColor = "#F1F2F4"
+textColor = "#18181B"
+linkColor = "#047857"
+borderColor = "#E4E4E7"
+codeBackgroundColor = "#F1F2F4"
+codeTextColor = "#18181B"
+dataframeBorderColor = "#E4E4E7"
+dataframeHeaderBackgroundColor = "#F1F2F4"
+
+greenColor = "#059669"
+redColor = "#DC2626"
+orangeColor = "#D97706"
+yellowColor = "#CA8A04"
+blueColor = "#2563EB"
+violetColor = "#7C3AED"
+grayColor = "#71717A"
+
+chartCategoricalColors = ["#047857", "#2563EB", "#D97706", "#DC2626", "#7C3AED", "#71717A", "#059669"]
+
+# Inter for body (highly readable at paragraph length -- this app has a lot
+# of explanation text), a slightly more distinctive geometric sans for
+# headings only, so it doesn't read as the Inter-everywhere default.
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+headingFont = "'Plus Jakarta Sans':https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700&display=swap"
+codeFont = "'JetBrains Mono':https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
+baseFontSize = 17
+baseFontWeight = 400
+headingFontSizes = ["36px", "27px", "22px", "19px", "17px", "16px"]
+headingFontWeights = [700, 700, 600, 600, 500, 500]
+linkUnderline = false
+
+baseRadius = "medium"
+buttonRadius = "medium"
+showWidgetBorder = true
+showSidebarBorder = true
+
+[theme.sidebar]
+backgroundColor = "#FAFAFA"
+secondaryBackgroundColor = "#F1F2F4"
+textColor = "#18181B"
+borderColor = "#E4E4E7"
+primaryColor = "#047857"
+
+[client]
+toolbarMode = "minimal"
+
+[server]
+enableStaticServing = true

@@ -1,0 +1,15 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# App data — NEVER publish (contains user accounts and portfolios)
+data/
+logs/
+*.db
+*.log
+
+# OS / editor
+.DS_Store
+.vscode/
